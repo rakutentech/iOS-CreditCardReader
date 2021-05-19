@@ -15,9 +15,9 @@ Camera based library for SwiftUI, AltSwiftUI and UIKit with lightweight and accu
 ## Features
 
 - Captures through image analysis:
--- Traditional credit card number
--- [Visa Quick Read](https://usa.visa.com/dam/VCOM/download/merchants/New_VBM_Acq_Merchant_62714_v5.pdf) card number
--- Card expiration date
+	- Traditional credit card number
+	- [Visa Quick Read](https://usa.visa.com/dam/VCOM/download/merchants/New_VBM_Acq_Merchant_62714_v5.pdf) card number
+	- Card expiration date
 - Can discern correct information when card contains multiple dates and numbers
 - UI controls are completely customizable
 - Retry capture function before confirmation
