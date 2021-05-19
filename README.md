@@ -1,5 +1,13 @@
 # Credit Card Reader
 
+[![Build](https://github.com/rakutentech/iOS-CreditCardReader/actions/workflows/build.yml/badge.svg)](https://github.com/rakutentech/iOS-CreditCardReader/actions/workflows/build.yml)
+[![Pod](https://img.shields.io/cocoapods/v/CreditCardReader.svg)](https://cocoapods.org/pods/CreditCardReader)
+![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-OK-brightgreen.svg)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-OK-brightgreen.svg)
+![AltSwiftUI](https://img.shields.io/badge/AltSwiftUI-OK-brightgreen.svg)
+![iOS](https://img.shields.io/badge/iOS-install_11.0+-blue.svg)
+![iOS](https://img.shields.io/badge/iOS-use_13.0+-blue.svg)
+
 Camera based library for SwiftUI, AltSwiftUI and UIKit with lightweight and accurate credit card information detection, and fully customizable UI controls.
 
 ![logo](https://raw.githubusercontent.com/rakutentech/iOS-CreditCardReader/master/docResources/CreditCardReader1.png)
