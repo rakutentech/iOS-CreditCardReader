@@ -16,7 +16,7 @@
 		2CA26273262ECCFB00B5FD6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA26271262ECCFB00B5FD6D /* LaunchScreen.storyboard */; };
 		2CA2627E262ECCFC00B5FD6D /* CreditCardReaderAltTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA2627D262ECCFC00B5FD6D /* CreditCardReaderAltTests.swift */; };
 		2CA26289262ECCFC00B5FD6D /* CreditCardReaderAltUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA26288262ECCFC00B5FD6D /* CreditCardReaderAltUITests.swift */; };
-		2CA2629A262ECD0200B5FD6D /* AltCreditCardReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA261D4262EAA0C00B5FD6D /* AltCreditCardReaderView.swift */; };
+		2CA2629A262ECD0200B5FD6D /* CreditCardReadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA261D4262EAA0C00B5FD6D /* CreditCardReadView.swift */; };
 		2CA262A1262ECD0400B5FD6D /* CreditCardImageAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC337A9262D7121003E8FDB /* CreditCardImageAnalyzer.swift */; };
 		2CA262A2262ECD0400B5FD6D /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE9686E262D7752007A5045 /* CreditCard.swift */; };
 		2CA262A3262ECD0400B5FD6D /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC33795262D2B0B003E8FDB /* Error.swift */; };
@@ -75,7 +75,7 @@
 
 /* Begin PBXFileReference section */
 		2CA26180262E9BFA00B5FD6D /* CardCaptureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCaptureController.swift; sourceTree = "<group>"; };
-		2CA261D4262EAA0C00B5FD6D /* AltCreditCardReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltCreditCardReaderView.swift; sourceTree = "<group>"; };
+		2CA261D4262EAA0C00B5FD6D /* CreditCardReadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardReadView.swift; sourceTree = "<group>"; };
 		2CA26264262ECCF900B5FD6D /* CreditCardReaderAlt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditCardReaderAlt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA26266262ECCF900B5FD6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CA26268262ECCF900B5FD6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -162,7 +162,7 @@
 		2CA26185262E9C7100B5FD6D /* AltSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				2CA261D4262EAA0C00B5FD6D /* AltCreditCardReaderView.swift */,
+				2CA261D4262EAA0C00B5FD6D /* CreditCardReadView.swift */,
 			);
 			path = AltSwiftUI;
 			sourceTree = "<group>";
@@ -599,7 +599,7 @@
 			files = (
 				2CA262AB262ECD0700B5FD6D /* CardCaptureView.swift in Sources */,
 				2CA262A2262ECD0400B5FD6D /* CreditCard.swift in Sources */,
-				2CA2629A262ECD0200B5FD6D /* AltCreditCardReaderView.swift in Sources */,
+				2CA2629A262ECD0200B5FD6D /* CreditCardReadView.swift in Sources */,
 				2CA26267262ECCF900B5FD6D /* AppDelegate.swift in Sources */,
 				2CA26269262ECCF900B5FD6D /* SceneDelegate.swift in Sources */,
 				2CA262A1262ECD0400B5FD6D /* CreditCardImageAnalyzer.swift in Sources */,

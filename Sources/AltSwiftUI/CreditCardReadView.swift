@@ -1,5 +1,5 @@
 //
-//  AltCreditCardReaderView.swift
+//  CreditCardReadView.swift
 //  CreditCardReaderAlt
 //
 //  Created by Wong, Kevin a on 2021/04/20.
@@ -11,7 +11,7 @@ import AltSwiftUI
 /// View that contains a camera output view and reads credit card information.
 /// Use this to retrieve credit card information of a user selected result.
 @available(iOS 13, *)
-public struct CreditCardReaderView: View {
+public struct CreditCardReadView: View {
     public var viewStore = ViewValues()
     
     public typealias Retry = () -> Void
@@ -60,7 +60,7 @@ public struct CreditCardReaderView: View {
 extension CreditCardReaderView {
     public var body: View {
         ZStack {
-            CardCaptureRepresentableView(
+            AltCardCaptureRepresentableView(
                 cardController: cardController,
                 onSuccess: { card, retry in
                     if let defaultUIControls = defaultUIControls {
@@ -203,7 +203,7 @@ extension CreditCardReaderView {
 }
 
 @available(iOS 13, *)
-struct CardCaptureRepresentableView: UIViewRepresentable {
+struct AltCardCaptureRepresentableView: UIViewRepresentable {
     var viewStore = ViewValues()
     
     var cardController: CardCaptureController

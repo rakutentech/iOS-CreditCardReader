@@ -115,6 +115,16 @@ ZStack {
 }
 ```
 
+### AltSwiftUI
+
+In AltSwiftUI, the reader view is named `CreditCardReadView`, in order to prevent Cocoa Pods submission conflicts.
+
+```swift
+CreditCardReadView { card, _ in
+    // Do something with the card
+}
+```
+
 ### UIKit
 
 When using the UIKit interface, you'd instantiate the card controller this way:
