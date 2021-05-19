@@ -35,21 +35,21 @@ Installation can be done by either Swift Package Manager or Cocoa Pods. Dependin
 
 ### SwiftUI
 
-```
+```ruby
 pod 'CreditCardReader/SwiftUI'
 ```
 SPM: CreditCardReader-SwiftUI
 
 ### AltSwiftUI
 
-```
+```ruby
 pod 'CreditCardReader/AltSwiftUI'
 ```
 SPM: CreditCardReader-AltSwiftUI
 
 ### UIKit
 
-```
+```ruby
 pod 'CreditCardReader/UIKit'
 ```
 SPM: CreditCardReader-UIKit
@@ -58,7 +58,7 @@ SPM: CreditCardReader-UIKit
 
 Using the credit card reader view is straightforward. You can add it directly to your view hierarchy:
 
-```
+```swift
 var body: some View {
 	...
 	CreditCardReaderView { card, _ in
@@ -70,7 +70,7 @@ var body: some View {
 
 Or present it in as modal:
 
-```
+```swift
 var body: some View {
 	...
 	MyView()
@@ -87,7 +87,7 @@ var body: some View {
 
 Basic Customization
 
-```
+```swift
 CreditCardReaderView(
 	defaultNavigationBar: .init(
 		titleText: "Read Card",
@@ -102,7 +102,7 @@ CreditCardReaderView(
 
 Full Customization
 
-```
+```swift
 ZStack {
 	CreditCardReaderView(
 		defaultNavigationBar: nil,
@@ -119,7 +119,7 @@ ZStack {
 
 When using the UIKit interface, you'd instantiate the card controller this way:
 
-```
+```swift
 CreditCardReaderViewController { card, _ in
 	// Do something with the card
 } onControllerClosed: {
