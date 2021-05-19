@@ -1,0 +1,1111 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CA26181262E9BFA00B5FD6D /* CardCaptureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA26180262E9BFA00B5FD6D /* CardCaptureController.swift */; };
+		2CA26267262ECCF900B5FD6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA26266262ECCF900B5FD6D /* AppDelegate.swift */; };
+		2CA26269262ECCF900B5FD6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA26268262ECCF900B5FD6D /* SceneDelegate.swift */; };
+		2CA2626B262ECCF900B5FD6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA2626A262ECCF900B5FD6D /* ContentView.swift */; };
+		2CA2626D262ECCFB00B5FD6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CA2626C262ECCFB00B5FD6D /* Assets.xcassets */; };
+		2CA26270262ECCFB00B5FD6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CA2626F262ECCFB00B5FD6D /* Preview Assets.xcassets */; };
+		2CA26273262ECCFB00B5FD6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA26271262ECCFB00B5FD6D /* LaunchScreen.storyboard */; };
+		2CA2627E262ECCFC00B5FD6D /* CreditCardReaderAltTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA2627D262ECCFC00B5FD6D /* CreditCardReaderAltTests.swift */; };
+		2CA26289262ECCFC00B5FD6D /* CreditCardReaderAltUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA26288262ECCFC00B5FD6D /* CreditCardReaderAltUITests.swift */; };
+		2CA2629A262ECD0200B5FD6D /* CreditCardReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA261D4262EAA0C00B5FD6D /* CreditCardReaderView.swift */; };
+		2CA262A1262ECD0400B5FD6D /* CreditCardImageAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC337A9262D7121003E8FDB /* CreditCardImageAnalyzer.swift */; };
+		2CA262A2262ECD0400B5FD6D /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE9686E262D7752007A5045 /* CreditCard.swift */; };
+		2CA262A3262ECD0400B5FD6D /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC33795262D2B0B003E8FDB /* Error.swift */; };
+		2CA262AA262ECD0700B5FD6D /* OverlayDefaultViewParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC33780262D22D0003E8FDB /* OverlayDefaultViewParams.swift */; };
+		2CA262AB262ECD0700B5FD6D /* CardCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC3377B262D227E003E8FDB /* CardCaptureView.swift */; };
+		2CA262AC262ECD0700B5FD6D /* CreditCardReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC3378A262D2309003E8FDB /* CreditCardReaderViewController.swift */; };
+		2CA262AD262ECD0700B5FD6D /* CardCaptureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA26180262E9BFA00B5FD6D /* CardCaptureController.swift */; };
+		2CA262C2262ECD7B00B5FD6D /* AltSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2CA262C1262ECD7B00B5FD6D /* AltSwiftUI */; };
+		2CB2DCAC26537ACE0052C2B4 /* ViewConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB2DCAB26537ACE0052C2B4 /* ViewConstants.swift */; };
+		2CB2DCB326537CC80052C2B4 /* ViewConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB2DCAB26537ACE0052C2B4 /* ViewConstants.swift */; };
+		2CC3374D262D221C003E8FDB /* CreditCardReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC3374C262D221C003E8FDB /* CreditCardReaderApp.swift */; };
+		2CC3374F262D221C003E8FDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC3374E262D221C003E8FDB /* ContentView.swift */; };
+		2CC33751262D221E003E8FDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC33750262D221E003E8FDB /* Assets.xcassets */; };
+		2CC33754262D221E003E8FDB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC33753262D221E003E8FDB /* Preview Assets.xcassets */; };
+		2CC3375F262D221F003E8FDB /* CreditCardReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC3375E262D221F003E8FDB /* CreditCardReaderTests.swift */; };
+		2CC3376A262D221F003E8FDB /* CreditCardReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC33769262D221F003E8FDB /* CreditCardReaderUITests.swift */; };
+		2CC3377C262D227E003E8FDB /* CardCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC3377B262D227E003E8FDB /* CardCaptureView.swift */; };
+		2CC33781262D22D0003E8FDB /* OverlayDefaultViewParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC33780262D22D0003E8FDB /* OverlayDefaultViewParams.swift */; };
+		2CC3378B262D2309003E8FDB /* CreditCardReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC3378A262D2309003E8FDB /* CreditCardReaderViewController.swift */; };
+		2CC33796262D2B0B003E8FDB /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC33795262D2B0B003E8FDB /* Error.swift */; };
+		2CC3379C262D425C003E8FDB /* CreditCardReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC3379B262D425C003E8FDB /* CreditCardReaderView.swift */; };
+		2CC337AA262D7121003E8FDB /* CreditCardImageAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC337A9262D7121003E8FDB /* CreditCardImageAnalyzer.swift */; };
+		2CE9686F262D7752007A5045 /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE9686E262D7752007A5045 /* CreditCard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CA2627A262ECCFC00B5FD6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CC33741262D221C003E8FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CA26263262ECCF900B5FD6D;
+			remoteInfo = CreditCardReaderAlt;
+		};
+		2CA26285262ECCFC00B5FD6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CC33741262D221C003E8FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CA26263262ECCF900B5FD6D;
+			remoteInfo = CreditCardReaderAlt;
+		};
+		2CC3375B262D221F003E8FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CC33741262D221C003E8FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CC33748262D221C003E8FDB;
+			remoteInfo = CreditCardReader;
+		};
+		2CC33766262D221F003E8FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CC33741262D221C003E8FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CC33748262D221C003E8FDB;
+			remoteInfo = CreditCardReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CA26180262E9BFA00B5FD6D /* CardCaptureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCaptureController.swift; sourceTree = "<group>"; };
+		2CA261D4262EAA0C00B5FD6D /* CreditCardReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardReaderView.swift; sourceTree = "<group>"; };
+		2CA26264262ECCF900B5FD6D /* CreditCardReaderAlt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditCardReaderAlt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA26266262ECCF900B5FD6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CA26268262ECCF900B5FD6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2CA2626A262ECCF900B5FD6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2CA2626C262ECCFB00B5FD6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CA2626F262ECCFB00B5FD6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2CA26272262ECCFB00B5FD6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CA26274262ECCFB00B5FD6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CA26279262ECCFC00B5FD6D /* CreditCardReaderAltTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreditCardReaderAltTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA2627D262ECCFC00B5FD6D /* CreditCardReaderAltTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardReaderAltTests.swift; sourceTree = "<group>"; };
+		2CA2627F262ECCFC00B5FD6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CA26284262ECCFC00B5FD6D /* CreditCardReaderAltUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreditCardReaderAltUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA26288262ECCFC00B5FD6D /* CreditCardReaderAltUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardReaderAltUITests.swift; sourceTree = "<group>"; };
+		2CA2628A262ECCFC00B5FD6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CB2DCAB26537ACE0052C2B4 /* ViewConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConstants.swift; sourceTree = "<group>"; };
+		2CC33749262D221C003E8FDB /* CreditCardReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditCardReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC3374C262D221C003E8FDB /* CreditCardReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardReaderApp.swift; sourceTree = "<group>"; };
+		2CC3374E262D221C003E8FDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2CC33750262D221E003E8FDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CC33753262D221E003E8FDB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2CC33755262D221E003E8FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CC3375A262D221F003E8FDB /* CreditCardReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreditCardReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC3375E262D221F003E8FDB /* CreditCardReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardReaderTests.swift; sourceTree = "<group>"; };
+		2CC33760262D221F003E8FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CC33765262D221F003E8FDB /* CreditCardReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreditCardReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC33769262D221F003E8FDB /* CreditCardReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardReaderUITests.swift; sourceTree = "<group>"; };
+		2CC3376B262D221F003E8FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CC3377B262D227E003E8FDB /* CardCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCaptureView.swift; sourceTree = "<group>"; };
+		2CC33780262D22D0003E8FDB /* OverlayDefaultViewParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayDefaultViewParams.swift; sourceTree = "<group>"; };
+		2CC3378A262D2309003E8FDB /* CreditCardReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardReaderViewController.swift; sourceTree = "<group>"; };
+		2CC33795262D2B0B003E8FDB /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		2CC3379B262D425C003E8FDB /* CreditCardReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardReaderView.swift; sourceTree = "<group>"; };
+		2CC337A9262D7121003E8FDB /* CreditCardImageAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardImageAnalyzer.swift; sourceTree = "<group>"; };
+		2CE9686E262D7752007A5045 /* CreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CA26261262ECCF900B5FD6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA262C2262ECD7B00B5FD6D /* AltSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA26276262ECCFC00B5FD6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA26281262ECCFC00B5FD6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC33746262D221C003E8FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC33757262D221F003E8FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC33762262D221F003E8FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CA26185262E9C7100B5FD6D /* AltSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				2CA261D4262EAA0C00B5FD6D /* CreditCardReaderView.swift */,
+			);
+			path = AltSwiftUI;
+			sourceTree = "<group>";
+		};
+		2CA26265262ECCF900B5FD6D /* CreditCardReaderAlt */ = {
+			isa = PBXGroup;
+			children = (
+				2CA26266262ECCF900B5FD6D /* AppDelegate.swift */,
+				2CA26268262ECCF900B5FD6D /* SceneDelegate.swift */,
+				2CA2626A262ECCF900B5FD6D /* ContentView.swift */,
+				2CA2626C262ECCFB00B5FD6D /* Assets.xcassets */,
+				2CA26271262ECCFB00B5FD6D /* LaunchScreen.storyboard */,
+				2CA26274262ECCFB00B5FD6D /* Info.plist */,
+				2CA2626E262ECCFB00B5FD6D /* Preview Content */,
+			);
+			path = CreditCardReaderAlt;
+			sourceTree = "<group>";
+		};
+		2CA2626E262ECCFB00B5FD6D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2CA2626F262ECCFB00B5FD6D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2CA2627C262ECCFC00B5FD6D /* CreditCardReaderAltTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CA2627D262ECCFC00B5FD6D /* CreditCardReaderAltTests.swift */,
+				2CA2627F262ECCFC00B5FD6D /* Info.plist */,
+			);
+			path = CreditCardReaderAltTests;
+			sourceTree = "<group>";
+		};
+		2CA26287262ECCFC00B5FD6D /* CreditCardReaderAltUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CA26288262ECCFC00B5FD6D /* CreditCardReaderAltUITests.swift */,
+				2CA2628A262ECCFC00B5FD6D /* Info.plist */,
+			);
+			path = CreditCardReaderAltUITests;
+			sourceTree = "<group>";
+		};
+		2CA262C0262ECD7B00B5FD6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CB2DCBA2653A2840052C2B4 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				2CC3378A262D2309003E8FDB /* CreditCardReaderViewController.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		2CC33740262D221C003E8FDB = {
+			isa = PBXGroup;
+			children = (
+				2CC3374B262D221C003E8FDB /* CreditCardReader */,
+				2CC3375D262D221F003E8FDB /* CreditCardReaderTests */,
+				2CC33768262D221F003E8FDB /* CreditCardReaderUITests */,
+				2CA26265262ECCF900B5FD6D /* CreditCardReaderAlt */,
+				2CA2627C262ECCFC00B5FD6D /* CreditCardReaderAltTests */,
+				2CA26287262ECCFC00B5FD6D /* CreditCardReaderAltUITests */,
+				2CC3374A262D221C003E8FDB /* Products */,
+				2CA262C0262ECD7B00B5FD6D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2CC3374A262D221C003E8FDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CC33749262D221C003E8FDB /* CreditCardReader.app */,
+				2CC3375A262D221F003E8FDB /* CreditCardReaderTests.xctest */,
+				2CC33765262D221F003E8FDB /* CreditCardReaderUITests.xctest */,
+				2CA26264262ECCF900B5FD6D /* CreditCardReaderAlt.app */,
+				2CA26279262ECCFC00B5FD6D /* CreditCardReaderAltTests.xctest */,
+				2CA26284262ECCFC00B5FD6D /* CreditCardReaderAltUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CC3374B262D221C003E8FDB /* CreditCardReader */ = {
+			isa = PBXGroup;
+			children = (
+				2CC3377A262D226A003E8FDB /* Sources */,
+				2CC3374C262D221C003E8FDB /* CreditCardReaderApp.swift */,
+				2CC3374E262D221C003E8FDB /* ContentView.swift */,
+				2CC33750262D221E003E8FDB /* Assets.xcassets */,
+				2CC33755262D221E003E8FDB /* Info.plist */,
+				2CC33752262D221E003E8FDB /* Preview Content */,
+			);
+			path = CreditCardReader;
+			sourceTree = "<group>";
+		};
+		2CC33752262D221E003E8FDB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2CC33753262D221E003E8FDB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2CC3375D262D221F003E8FDB /* CreditCardReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CC3375E262D221F003E8FDB /* CreditCardReaderTests.swift */,
+				2CC33760262D221F003E8FDB /* Info.plist */,
+			);
+			path = CreditCardReaderTests;
+			sourceTree = "<group>";
+		};
+		2CC33768262D221F003E8FDB /* CreditCardReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CC33769262D221F003E8FDB /* CreditCardReaderUITests.swift */,
+				2CC3376B262D221F003E8FDB /* Info.plist */,
+			);
+			path = CreditCardReaderUITests;
+			sourceTree = "<group>";
+		};
+		2CC3377A262D226A003E8FDB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2CB2DCBA2653A2840052C2B4 /* UIKit */,
+				2CA26185262E9C7100B5FD6D /* AltSwiftUI */,
+				2CE9686A262D7742007A5045 /* Model */,
+				2CE96869262D7726007A5045 /* Views */,
+				2CC3379A262D422E003E8FDB /* SwiftUI */,
+			);
+			name = Sources;
+			path = ../../Sources;
+			sourceTree = "<group>";
+		};
+		2CC3379A262D422E003E8FDB /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				2CC3379B262D425C003E8FDB /* CreditCardReaderView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		2CE96869262D7726007A5045 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2CC3377B262D227E003E8FDB /* CardCaptureView.swift */,
+				2CC33780262D22D0003E8FDB /* OverlayDefaultViewParams.swift */,
+				2CA26180262E9BFA00B5FD6D /* CardCaptureController.swift */,
+				2CB2DCAB26537ACE0052C2B4 /* ViewConstants.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2CE9686A262D7742007A5045 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2CC337A9262D7121003E8FDB /* CreditCardImageAnalyzer.swift */,
+				2CC33795262D2B0B003E8FDB /* Error.swift */,
+				2CE9686E262D7752007A5045 /* CreditCard.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CA26263262ECCF900B5FD6D /* CreditCardReaderAlt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CA2628B262ECCFC00B5FD6D /* Build configuration list for PBXNativeTarget "CreditCardReaderAlt" */;
+			buildPhases = (
+				2CA26260262ECCF900B5FD6D /* Sources */,
+				2CA26261262ECCF900B5FD6D /* Frameworks */,
+				2CA26262262ECCF900B5FD6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreditCardReaderAlt;
+			packageProductDependencies = (
+				2CA262C1262ECD7B00B5FD6D /* AltSwiftUI */,
+			);
+			productName = CreditCardReaderAlt;
+			productReference = 2CA26264262ECCF900B5FD6D /* CreditCardReaderAlt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CA26278262ECCFC00B5FD6D /* CreditCardReaderAltTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CA2628E262ECCFC00B5FD6D /* Build configuration list for PBXNativeTarget "CreditCardReaderAltTests" */;
+			buildPhases = (
+				2CA26275262ECCFC00B5FD6D /* Sources */,
+				2CA26276262ECCFC00B5FD6D /* Frameworks */,
+				2CA26277262ECCFC00B5FD6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CA2627B262ECCFC00B5FD6D /* PBXTargetDependency */,
+			);
+			name = CreditCardReaderAltTests;
+			productName = CreditCardReaderAltTests;
+			productReference = 2CA26279262ECCFC00B5FD6D /* CreditCardReaderAltTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CA26283262ECCFC00B5FD6D /* CreditCardReaderAltUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CA26291262ECCFC00B5FD6D /* Build configuration list for PBXNativeTarget "CreditCardReaderAltUITests" */;
+			buildPhases = (
+				2CA26280262ECCFC00B5FD6D /* Sources */,
+				2CA26281262ECCFC00B5FD6D /* Frameworks */,
+				2CA26282262ECCFC00B5FD6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CA26286262ECCFC00B5FD6D /* PBXTargetDependency */,
+			);
+			name = CreditCardReaderAltUITests;
+			productName = CreditCardReaderAltUITests;
+			productReference = 2CA26284262ECCFC00B5FD6D /* CreditCardReaderAltUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2CC33748262D221C003E8FDB /* CreditCardReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CC3376E262D221F003E8FDB /* Build configuration list for PBXNativeTarget "CreditCardReader" */;
+			buildPhases = (
+				2CC33745262D221C003E8FDB /* Sources */,
+				2CC33746262D221C003E8FDB /* Frameworks */,
+				2CC33747262D221C003E8FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreditCardReader;
+			productName = CreditCardReader;
+			productReference = 2CC33749262D221C003E8FDB /* CreditCardReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CC33759262D221F003E8FDB /* CreditCardReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CC33771262D221F003E8FDB /* Build configuration list for PBXNativeTarget "CreditCardReaderTests" */;
+			buildPhases = (
+				2CC33756262D221F003E8FDB /* Sources */,
+				2CC33757262D221F003E8FDB /* Frameworks */,
+				2CC33758262D221F003E8FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CC3375C262D221F003E8FDB /* PBXTargetDependency */,
+			);
+			name = CreditCardReaderTests;
+			productName = CreditCardReaderTests;
+			productReference = 2CC3375A262D221F003E8FDB /* CreditCardReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CC33764262D221F003E8FDB /* CreditCardReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CC33774262D221F003E8FDB /* Build configuration list for PBXNativeTarget "CreditCardReaderUITests" */;
+			buildPhases = (
+				2CC33761262D221F003E8FDB /* Sources */,
+				2CC33762262D221F003E8FDB /* Frameworks */,
+				2CC33763262D221F003E8FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CC33767262D221F003E8FDB /* PBXTargetDependency */,
+			);
+			name = CreditCardReaderUITests;
+			productName = CreditCardReaderUITests;
+			productReference = 2CC33765262D221F003E8FDB /* CreditCardReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CC33741262D221C003E8FDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					2CA26263262ECCF900B5FD6D = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					2CA26278262ECCFC00B5FD6D = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 2CA26263262ECCF900B5FD6D;
+					};
+					2CA26283262ECCFC00B5FD6D = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 2CA26263262ECCF900B5FD6D;
+					};
+					2CC33748262D221C003E8FDB = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					2CC33759262D221F003E8FDB = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 2CC33748262D221C003E8FDB;
+					};
+					2CC33764262D221F003E8FDB = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 2CC33748262D221C003E8FDB;
+					};
+				};
+			};
+			buildConfigurationList = 2CC33744262D221C003E8FDB /* Build configuration list for PBXProject "CreditCardReader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CC33740262D221C003E8FDB;
+			packageReferences = (
+				2CA261DC262EAAA400B5FD6D /* XCRemoteSwiftPackageReference "AltSwiftUI" */,
+			);
+			productRefGroup = 2CC3374A262D221C003E8FDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CC33748262D221C003E8FDB /* CreditCardReader */,
+				2CC33759262D221F003E8FDB /* CreditCardReaderTests */,
+				2CC33764262D221F003E8FDB /* CreditCardReaderUITests */,
+				2CA26263262ECCF900B5FD6D /* CreditCardReaderAlt */,
+				2CA26278262ECCFC00B5FD6D /* CreditCardReaderAltTests */,
+				2CA26283262ECCFC00B5FD6D /* CreditCardReaderAltUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CA26262262ECCF900B5FD6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA26273262ECCFB00B5FD6D /* LaunchScreen.storyboard in Resources */,
+				2CA26270262ECCFB00B5FD6D /* Preview Assets.xcassets in Resources */,
+				2CA2626D262ECCFB00B5FD6D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA26277262ECCFC00B5FD6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA26282262ECCFC00B5FD6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC33747262D221C003E8FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC33754262D221E003E8FDB /* Preview Assets.xcassets in Resources */,
+				2CC33751262D221E003E8FDB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC33758262D221F003E8FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC33763262D221F003E8FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CA26260262ECCF900B5FD6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA262AB262ECD0700B5FD6D /* CardCaptureView.swift in Sources */,
+				2CA262A2262ECD0400B5FD6D /* CreditCard.swift in Sources */,
+				2CA2629A262ECD0200B5FD6D /* CreditCardReaderView.swift in Sources */,
+				2CA26267262ECCF900B5FD6D /* AppDelegate.swift in Sources */,
+				2CA26269262ECCF900B5FD6D /* SceneDelegate.swift in Sources */,
+				2CA262A1262ECD0400B5FD6D /* CreditCardImageAnalyzer.swift in Sources */,
+				2CB2DCB326537CC80052C2B4 /* ViewConstants.swift in Sources */,
+				2CA262A3262ECD0400B5FD6D /* Error.swift in Sources */,
+				2CA2626B262ECCF900B5FD6D /* ContentView.swift in Sources */,
+				2CA262AC262ECD0700B5FD6D /* CreditCardReaderViewController.swift in Sources */,
+				2CA262AD262ECD0700B5FD6D /* CardCaptureController.swift in Sources */,
+				2CA262AA262ECD0700B5FD6D /* OverlayDefaultViewParams.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA26275262ECCFC00B5FD6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA2627E262ECCFC00B5FD6D /* CreditCardReaderAltTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA26280262ECCFC00B5FD6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA26289262ECCFC00B5FD6D /* CreditCardReaderAltUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC33745262D221C003E8FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC3379C262D425C003E8FDB /* CreditCardReaderView.swift in Sources */,
+				2CC33781262D22D0003E8FDB /* OverlayDefaultViewParams.swift in Sources */,
+				2CA26181262E9BFA00B5FD6D /* CardCaptureController.swift in Sources */,
+				2CC3378B262D2309003E8FDB /* CreditCardReaderViewController.swift in Sources */,
+				2CC3377C262D227E003E8FDB /* CardCaptureView.swift in Sources */,
+				2CB2DCAC26537ACE0052C2B4 /* ViewConstants.swift in Sources */,
+				2CC3374F262D221C003E8FDB /* ContentView.swift in Sources */,
+				2CE9686F262D7752007A5045 /* CreditCard.swift in Sources */,
+				2CC33796262D2B0B003E8FDB /* Error.swift in Sources */,
+				2CC337AA262D7121003E8FDB /* CreditCardImageAnalyzer.swift in Sources */,
+				2CC3374D262D221C003E8FDB /* CreditCardReaderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC33756262D221F003E8FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC3375F262D221F003E8FDB /* CreditCardReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC33761262D221F003E8FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC3376A262D221F003E8FDB /* CreditCardReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CA2627B262ECCFC00B5FD6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CA26263262ECCF900B5FD6D /* CreditCardReaderAlt */;
+			targetProxy = 2CA2627A262ECCFC00B5FD6D /* PBXContainerItemProxy */;
+		};
+		2CA26286262ECCFC00B5FD6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CA26263262ECCF900B5FD6D /* CreditCardReaderAlt */;
+			targetProxy = 2CA26285262ECCFC00B5FD6D /* PBXContainerItemProxy */;
+		};
+		2CC3375C262D221F003E8FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CC33748262D221C003E8FDB /* CreditCardReader */;
+			targetProxy = 2CC3375B262D221F003E8FDB /* PBXContainerItemProxy */;
+		};
+		2CC33767262D221F003E8FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CC33748262D221C003E8FDB /* CreditCardReader */;
+			targetProxy = 2CC33766262D221F003E8FDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CA26271262ECCFB00B5FD6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CA26272262ECCFB00B5FD6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CA2628C262ECCFC00B5FD6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CreditCardReaderAlt/Preview Content\"";
+				DEVELOPMENT_TEAM = A34HD644A5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CreditCardReaderAlt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.travel.rakuten.CreditCardReaderAlt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CA2628D262ECCFC00B5FD6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CreditCardReaderAlt/Preview Content\"";
+				DEVELOPMENT_TEAM = A34HD644A5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CreditCardReaderAlt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.travel.rakuten.CreditCardReaderAlt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2CA2628F262ECCFC00B5FD6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CreditCardReaderAltTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.travel.rakuten.CreditCardReaderAltTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CreditCardReaderAlt.app/CreditCardReaderAlt";
+			};
+			name = Debug;
+		};
+		2CA26290262ECCFC00B5FD6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CreditCardReaderAltTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.travel.rakuten.CreditCardReaderAltTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CreditCardReaderAlt.app/CreditCardReaderAlt";
+			};
+			name = Release;
+		};
+		2CA26292262ECCFC00B5FD6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CreditCardReaderAltUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.travel.rakuten.CreditCardReaderAltUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CreditCardReaderAlt;
+			};
+			name = Debug;
+		};
+		2CA26293262ECCFC00B5FD6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CreditCardReaderAltUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.travel.rakuten.CreditCardReaderAltUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CreditCardReaderAlt;
+			};
+			name = Release;
+		};
+		2CC3376C262D221F003E8FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CC3376D262D221F003E8FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CC3376F262D221F003E8FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CreditCardReader/Preview Content\"";
+				DEVELOPMENT_TEAM = A34HD644A5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CreditCardReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.travel.rakuten.CreditCardReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CC33770262D221F003E8FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CreditCardReader/Preview Content\"";
+				DEVELOPMENT_TEAM = A34HD644A5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CreditCardReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.travel.rakuten.CreditCardReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2CC33772262D221F003E8FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CreditCardReaderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.travel.rakuten.CreditCardReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CreditCardReader.app/CreditCardReader";
+			};
+			name = Debug;
+		};
+		2CC33773262D221F003E8FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CreditCardReaderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.travel.rakuten.CreditCardReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CreditCardReader.app/CreditCardReader";
+			};
+			name = Release;
+		};
+		2CC33775262D221F003E8FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CreditCardReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.travel.rakuten.CreditCardReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CreditCardReader;
+			};
+			name = Debug;
+		};
+		2CC33776262D221F003E8FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CreditCardReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.travel.rakuten.CreditCardReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CreditCardReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CA2628B262ECCFC00B5FD6D /* Build configuration list for PBXNativeTarget "CreditCardReaderAlt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA2628C262ECCFC00B5FD6D /* Debug */,
+				2CA2628D262ECCFC00B5FD6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CA2628E262ECCFC00B5FD6D /* Build configuration list for PBXNativeTarget "CreditCardReaderAltTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA2628F262ECCFC00B5FD6D /* Debug */,
+				2CA26290262ECCFC00B5FD6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CA26291262ECCFC00B5FD6D /* Build configuration list for PBXNativeTarget "CreditCardReaderAltUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA26292262ECCFC00B5FD6D /* Debug */,
+				2CA26293262ECCFC00B5FD6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CC33744262D221C003E8FDB /* Build configuration list for PBXProject "CreditCardReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC3376C262D221F003E8FDB /* Debug */,
+				2CC3376D262D221F003E8FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CC3376E262D221F003E8FDB /* Build configuration list for PBXNativeTarget "CreditCardReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC3376F262D221F003E8FDB /* Debug */,
+				2CC33770262D221F003E8FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CC33771262D221F003E8FDB /* Build configuration list for PBXNativeTarget "CreditCardReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC33772262D221F003E8FDB /* Debug */,
+				2CC33773262D221F003E8FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CC33774262D221F003E8FDB /* Build configuration list for PBXNativeTarget "CreditCardReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC33775262D221F003E8FDB /* Debug */,
+				2CC33776262D221F003E8FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2CA261DC262EAAA400B5FD6D /* XCRemoteSwiftPackageReference "AltSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rakutentech/AltSwiftUI";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2CA262C1262ECD7B00B5FD6D /* AltSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CA261DC262EAAA400B5FD6D /* XCRemoteSwiftPackageReference "AltSwiftUI" */;
+			productName = AltSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2CC33741262D221C003E8FDB /* Project object */;
+}

@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AltSwiftUI",
+        "repositoryURL": "https://github.com/rakutentech/AltSwiftUI",
+        "state": {
+          "branch": null,
+          "revision": "18e72bd88989839f6468d9a16fae7950350faa43",
+          "version": "1.5.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
