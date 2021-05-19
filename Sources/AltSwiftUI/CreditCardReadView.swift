@@ -57,7 +57,7 @@ public struct CreditCardReadView: View {
 }
 
 @available(iOS 13, *)
-extension CreditCardReaderView {
+extension CreditCardReadView {
     public var body: View {
         ZStack {
             AltCardCaptureRepresentableView(

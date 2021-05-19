@@ -23,7 +23,7 @@ struct ContentView: View {
             }
         }
         .sheet(isPresented: $showCardReader) {
-            CreditCardReaderView { card, _ in
+            CreditCardReadView { card, _ in
                 creditCard = card
             }
         }
