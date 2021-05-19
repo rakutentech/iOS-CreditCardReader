@@ -1,0 +1,20 @@
+name: Build
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+env:
+  DEVELOPER_DIR: /Applications/Xcode_12_beta.app/Contents/Developer
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run tests
+      run: xcodebuild test -project 'CreditCardReader/CreditCardReader.xcodeproj' -scheme CreditCardReaderTests -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 8,OS=latest"
