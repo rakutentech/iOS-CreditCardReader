@@ -9,10 +9,10 @@ import AltSwiftUI
 
 struct ContentView: View {
     var viewStore = ViewValues()
-    
+
     @State private var showCardReader = false
     @State private var creditCard: CreditCard?
-    
+
     var body: View {
         VStack {
             Button("Read Card") {

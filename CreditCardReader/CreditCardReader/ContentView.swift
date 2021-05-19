@@ -13,7 +13,7 @@ struct ContentView: View {
     @State private var showCardReaderCustom = false
     @State private var showUIKitCardReader = false
     @State private var creditCard: CreditCard?
-    
+
     var body: some View {
         VStack {
             Button("Read Card") {
@@ -24,7 +24,7 @@ struct ContentView: View {
                     creditCard = card
                 }
             }
-            
+
             Button("Read Card No Retry") {
                 showCardReaderNoRetry = true
             }
@@ -33,7 +33,7 @@ struct ContentView: View {
                     creditCard = card
                 }
             }
-            
+
             Button("Read Card Custom") {
                 showCardReaderCustom = true
             }
@@ -44,13 +44,13 @@ struct ContentView: View {
                         defaultUIControls: nil) { card, _ in
                         creditCard = card
                     }
-                    
+
                     Button("Custom Close") {
                         showCardReaderCustom = false
                     }
                 }
             }
-            
+
             Button("Read UIKit Card") {
                 showUIKitCardReader = true
             }
@@ -62,7 +62,7 @@ struct ContentView: View {
                 }
                 .edgesIgnoringSafeArea(.bottom)
             }
-            
+
             if let creditCard = creditCard {
                 Text("\(creditCard.cardNumberDisplayString)\n\(creditCard.expirationDateDisplayString ?? "")")
             }
@@ -74,7 +74,7 @@ struct ContentView: View {
 struct CreditCardReaderViewControllerRep: UIViewControllerRepresentable {
     var onSuccess: (CreditCard) -> Void
     var onClose: () -> Void
-    
+
     func makeUIViewController(context: Self.Context) -> CreditCardReaderViewController {
         CreditCardReaderViewController { card, _ in
             onSuccess(card)

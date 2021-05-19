@@ -1,5 +1,5 @@
 //
-//  CreditCardReaderView.swift
+//  AltCreditCardReaderView.swift
 //  CreditCardReaderAlt
 //
 //  Created by Wong, Kevin a on 2021/04/20.
